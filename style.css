@@ -1,0 +1,20 @@
+.calender ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1em;
+}
+.calender li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 2.5em;
+    height: 125px;
+    background-color: lightgrey;
+}
+.previous{
+    background-color: rgb(226, 181, 181) !important;
+}
+.next{
+    background-color: rgb(228, 116, 228) !important;
+}
